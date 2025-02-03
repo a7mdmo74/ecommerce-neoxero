@@ -33,13 +33,13 @@ export const Music = () => {
             </button>
           </div>
         </div>
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center mt-4 md:mt-0">
           <Image
             src="/music.png"
             alt="Music"
             width={400}
             height={300}
-            className="object-cover shadow-sm shadow-white rounded-full"
+            className="object-cover w-52 md:w-80 shadow-sm shadow-white rounded-full"
           />
         </div>
       </div>

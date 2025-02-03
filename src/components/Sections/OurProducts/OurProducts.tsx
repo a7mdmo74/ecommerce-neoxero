@@ -9,7 +9,7 @@ export const OurProducts = () => {
 
   return (
     <div className="flex flex-col items-center gap-6">
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {displayedProducts.map((product, index) => (
           <ProductCard key={index} product={product} />
         ))}
@@ -17,7 +17,7 @@ export const OurProducts = () => {
       {products.length > 8 && (
         <button
           onClick={() => setShowAll(!showAll)}
-          className="mt-4 px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
+          className="bg-red-700 text-white py-3 px-16 rounded-sm text-sm"
         >
           {showAll ? "View Less" : "View All Products"}
         </button>
