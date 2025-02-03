@@ -7,7 +7,6 @@ export const Hero = () => {
       <div className="w-full md:w-52 border-b md:border-b-0 md:border-r border-neutral-300">
         <Rightbar />
       </div>
-      {/* Banner */}
       <Banner />
     </div>
   );

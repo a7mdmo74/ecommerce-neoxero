@@ -9,8 +9,8 @@ export const Featured = () => {
       <div className="flex items-start w-full justify-between">
         <CustomTitle title="New Arrival" />
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-        <div className="col-span-1 row-span-2 p-4 bg-black relative">
+      <div className="flex flex-col lg:flex-row gap-4">
+        <div className="flex-1 p-4 bg-black relative">
           <div className="absolute bottom-8 left-5">
             <div className="flex flex-col items-start text-white">
               <div className="flex flex-col items-start justify-center gap-2">
@@ -33,8 +33,8 @@ export const Featured = () => {
             className="object-contain w-full h-96"
           />
         </div>
-        <div className="col-span-1 grid lg:grid-rows-2 gap-4">
-          <div className="row-span-1 p-4 bg-black">
+        <div className="flex-1 flex flex-col gap-4">
+          <div className="flex-1 p-4 bg-black">
             <div className="flex items-end justify-between">
               <div className="flex flex-col items-start text-white">
                 <div className="flex flex-col items-start justify-center gap-2">
@@ -62,8 +62,8 @@ export const Featured = () => {
               </div>
             </div>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="p-4 bg-black relative">
+          <div className="flex flex-col md:flex-row gap-4">
+            <div className="flex-1 p-4 bg-black relative">
               <div className="absolute bottom-8 left-5">
                 <div className="flex flex-col items-start text-white">
                   <div className="flex flex-col items-start justify-center gap-2">
@@ -88,7 +88,7 @@ export const Featured = () => {
                 className="object-contain w-full h-48"
               />
             </div>
-            <div className="p-4 bg-black relative">
+            <div className="flex-1 p-4 bg-black relative">
               <div className="absolute bottom-8 left-5">
                 <div className="flex flex-col items-start text-white">
                   <div className="flex flex-col items-start justify-center gap-2">

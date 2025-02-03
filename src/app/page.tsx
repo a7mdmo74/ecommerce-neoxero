@@ -10,7 +10,7 @@ import WhyUs from "@/components/Sections/WhyUs";
 
 export default function Home() {
   return (
-    <main className="flex flex-col max-w-7xl px-4 md:px-0 gap-8 md:gap-16 mx-auto relative">
+    <main className="flex flex-col max-w-7xl px-4 xl:px-0 gap-8 md:gap-16 mx-auto relative">
       <Hero />
       <TodayOffers />
       <div className="w-full bg-neutral-300" style={{ height: "1px" }} />

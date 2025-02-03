@@ -1,3 +1,4 @@
+import { Counter } from "@/components/Sections/Music/Counter";
 import Image from "next/image";
 
 export const Music = () => {
@@ -10,24 +11,9 @@ export const Music = () => {
             <p className="text-xl md:text-4xl max-w-xs leading-loose font-semibold">
               Enhance Your Music Experience
             </p>
-            <div className="flex items-center justify-center gap-4">
-              <div className="bg-white text-xs text-black rounded-full flex flex-col items-center justify-center w-12 h-12">
-                <p>23</p>
-                <span>Hours</span>
-              </div>
-              <div className="bg-white text-xs text-black rounded-full flex flex-col items-center justify-center w-12 h-12">
-                <p>05</p>
-                <span>Days</span>
-              </div>
-              <div className="bg-white text-xs text-black rounded-full flex flex-col items-center justify-center w-12 h-12">
-                <p>59</p>
-                <span>Minutes</span>
-              </div>
-              <div className="bg-white text-xs text-black rounded-full flex flex-col items-center justify-center w-12 h-12">
-                <p>33</p>
-                <span>Sec</span>
-              </div>
-            </div>
+            <Counter
+              timeLeft={{ days: 3, hours: 8, minutes: 55, seconds: 10 }}
+            />
             <button className="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600 transition-all duration-300 ease-in-out">
               Explore More
             </button>

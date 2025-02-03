@@ -29,7 +29,9 @@ export const TodayOffers = () => {
     <div className="flex flex-col gap-4 md:gap-16">
       <CustomTitleRed title="Today's Offers" />
       <div className="flex items-start w-full justify-between">
-        <OfferCount />
+        <OfferCount
+          initialTime={{ days: 3, hours: 8, minutes: 55, seconds: 10 }}
+        />
         <div className="flex items-center gap-1">
           <button
             onClick={() => scroll("left")}
