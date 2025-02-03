@@ -13,7 +13,7 @@ export const Navbar = () => {
   };
   return (
     <nav className="bg-white mt-4 px-4 py-2 border-b-neutral-200 border-b">
-      <div className="max-w-8xl mx-auto">
+      <div className="max-w-7xl mx-auto">
         <div className="flex flex-row items-center justify-between lg:justify-center py-2 gap-4 md:gap-0">
           {/* Logo */}
           <div className="w-full md:w-52 text-left">

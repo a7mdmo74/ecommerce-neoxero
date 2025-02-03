@@ -1,3 +1,4 @@
+import Footer from "@/components/Sections/Footer";
 import { Header } from "@/components/Shared/Header";
 import { Navbar } from "@/components/Shared/Navbar";
 import { Toaster } from "@/components/ui/sonner";
@@ -33,6 +34,7 @@ export default function RootLayout({
         <Header />
         <Navbar />
         {children}
+        <Footer />
         <Toaster />
       </body>
     </html>

@@ -19,7 +19,7 @@ type Props = {
 export const ProductCard = ({ product }: Props) => {
   const { image, discount, title, price, oldPrice, rate } = product;
   return (
-    <Card className="min-w-[350px] space-y-4 relative rounded-none border-none group">
+    <Card className="max-w-[300px] space-y-4 shadow-none relative rounded-none border-none group">
       <CardHeader className="p-0 relative">
         <Image
           src={image}
